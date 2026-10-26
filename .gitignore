@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 虚拟环境（.venv 自带忽略，这里显式写一遍更保险）
+.venv/
+venv/
+
+# PyCharm 本机配置（含本机 SDK 路径，不该进仓库）
+.idea/
+
+# 系统杂项
+.DS_Store
+Thumbs.db
